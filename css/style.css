@@ -25,10 +25,12 @@
 .txt-blue{
     color: var(--text-blue);
 }
-.test {
+.height-space-img {
     height: 600px
 }
-
+.text-align-center{
+    text-align: center;
+}
 /* background */
 .bg-blue {
     background-color: var(--blue-bg);
@@ -74,8 +76,6 @@ ul {
     display: flex;
     gap: 25px;
 }
-
-li {}
 
 a {
     text-decoration: none;
