@@ -7,19 +7,24 @@
 /* general */
 :root {
     --padding-standard: 15px;
+    --padding-spacing-section:200px;
     /* color */
     --dark: #23272a;
     --light: #f6f6f6;
-    --blue-bg: #3065e8;
+    --blue-bg: #255EE9;
     --text-blue: #748adb;
     background-color: gainsboro;
 }
-
+.spacing-between-section{
+    padding-top: var(--padding-spacing-section);
+}
 /* text */
 .txt-white {
     color: white;
 }
-
+.txt-blue{
+    color: var(--text-blue);
+}
 .test {
     height: 600px
 }
@@ -27,7 +32,7 @@
 /* background */
 .bg-blue {
     background-color: var(--blue-bg);
-    ;
+    
 }
 
 .bg-white {
@@ -42,14 +47,14 @@
     background-color: var(--dark);
 }
 
-.debugger {
+/* .debugger {
     border: 1px solid red;
-}
+} */
 
 button {
-    background-color: white;
+    /* background-color: white; */
     border: none;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -154,7 +159,19 @@ a:visited {
 .container-header {
     padding: 20px
 }
+#log-in-header{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    margin: 0;
+    border-radius: 30px;
+    color: black;
 
+}
 /* main */
 .img-hero {
     background-image: url("../img/jumbo.png");
@@ -164,7 +181,11 @@ a:visited {
 
 #button-black {
     background-color: var(--dark);
+    padding: 10px;
     color: white;
+}
+#download-mac-white{
+    padding: 10px;
 }
 #download-mac{
     background-color: var(--text-blue);
@@ -184,4 +205,34 @@ a:visited {
     background-size: contain;    
     background-repeat: no-repeat;
 }
+.background-wave{
+    background-image: url("../img/wave.svg");
+}
+.space-bottom-main-footer{
+    padding-bottom: var(--padding-spacing-section);
+}
 /* footer */
+.footer-top-flex{
+    padding: 30px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.purple-line-footer{
+    border-bottom: 1px solid var(--text-blue);
+}
+.footer-bottom{
+    padding: var(--padding-standard);
+    padding-bottom: 50px;
+}
+#sign-in{
+    background-color: var(--text-blue);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    margin: 0;
+    border-radius: 30px;
+    color: white;
+}
