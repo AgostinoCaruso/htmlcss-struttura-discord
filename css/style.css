@@ -1,75 +1,141 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* general */
-:root{
+:root {
     --padding-standard: 15px;
     /* color */
-    --dark:#23272a;
-    --light:#f6f6f6;
-    --blue-bg:#3065e8;
+    --dark: #23272a;
+    --light: #f6f6f6;
+    --blue-bg: #3065e8;
     --text-blue: #748adb;
+    background-color: gainsboro;
+}
+/* text */
+.txt-white{
+    color:white;
+}
+.test{
+    height:600px
 }
 /* background */
-.bg-blue{
-    background-color: var(--blue-bg);;
+.bg-blue {
+    background-color: var(--blue-bg);
+    ;
 }
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
-.bg-grey{
+
+.bg-grey {
     background-color: var(--light);
 }
-.bg-dark{
+
+.bg-dark {
     background-color: var(--dark);
 }
-.debugger{
+
+.debugger {
     border: 1px solid red;
 }
-ul{
+button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8em;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 2.5em;
+}
+ul {
     list-style: none;
+    display: flex;
+    gap: 25px;
 }
-.auto-center{
-    margin:0 auto;
+li{
+
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
+.auto-center {
+    margin: 0 auto;
+}
+
 /* flex */
-.d-flex{
+.d-flex {
     display: flex;
 }
-.space-bet{
+.hero-flex-custom{
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.gap-standard{
+    gap: var(--padding-standard);
+}
+.space-bet {
     justify-content: space-between;
 }
-.ali-center{
+.space-center{
+    justify-content: center;
+}
+.ali-center {
     align-content: center;
 }
-.flex-dir-rowrev{
+
+.flex-dir-rowrev {
     flex-direction: row-reverse;
 }
-/* container */
-.container-1200px{
-    max-width: 1200px;
+.flex-column{
+    flex-direction: column;
 }
-.container-800px{
+/* container */
+.container-1200px {
+    max-width: 1400px;
+}
+
+.container-800px {
     max-width: 800px;
 }
+
 /* panel */
-.img-panel{
+.img-panel {
     width: 60%;
 }
-.txt-panel{
+
+.txt-panel {
     width: 40%;
 }
+
 /* body */
 
 /* header */
-header{
-    
+.container-header{
+    padding:20px
 }
-/* main */
 
-/* footer */
-footer{
-    
+/* main */
+.img-hero{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#button-black{
+    background-color: var(--dark);
+    color: white;
+}
+/* footer */
