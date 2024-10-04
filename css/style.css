@@ -101,7 +101,11 @@ a:visited {
     justify-content: center;
     gap: var(--padding-standard);
 }
-
+.tecnology-flex-costum{
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
 .gap-standard {
     gap: var(--padding-standard);
 }
@@ -162,5 +166,22 @@ a:visited {
     background-color: var(--dark);
     color: white;
 }
-
+#download-mac{
+    background-color: var(--text-blue);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8em;
+    margin: 4px 2px;
+    border-radius: 20px;
+    color: white;
+}
+.background-star{
+    width: 400px;
+    background-image: url("../img/stars.svg");
+    background-size: contain;    
+    background-repeat: no-repeat;
+}
 /* footer */
