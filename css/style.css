@@ -14,13 +14,16 @@
     --text-blue: #748adb;
     background-color: gainsboro;
 }
+
 /* text */
-.txt-white{
-    color:white;
+.txt-white {
+    color: white;
 }
-.test{
-    height:600px
+
+.test {
+    height: 600px
 }
+
 /* background */
 .bg-blue {
     background-color: var(--blue-bg);
@@ -42,7 +45,8 @@
 .debugger {
     border: 1px solid red;
 }
-button{
+
+button {
     background-color: white;
     border: none;
     padding: 10px;
@@ -53,23 +57,29 @@ button{
     margin: 4px 2px;
     border-radius: 20px;
 }
-h1{
+
+h1 {
     font-size: 2.5em;
+}
+h2{
+    font-size: 3.5em;
 }
 ul {
     list-style: none;
     display: flex;
     gap: 25px;
 }
-li{
 
-}
-a{
+li {}
+
+a {
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: inherit;
 }
+
 .auto-center {
     margin: 0 auto;
 }
@@ -78,21 +88,32 @@ a:visited{
 .d-flex {
     display: flex;
 }
-.hero-flex-custom{
+
+.hero-flex-custom {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.gap-standard{
+
+.panel-text-flex-custom {
+    flex-flow: column nowrap;
+    justify-content: center;
     gap: var(--padding-standard);
 }
+
+.gap-standard {
+    gap: var(--padding-standard);
+}
+
 .space-bet {
     justify-content: space-between;
 }
-.space-center{
+
+.space-center {
     justify-content: center;
 }
+
 .ali-center {
     align-content: center;
 }
@@ -100,9 +121,11 @@ a:visited{
 .flex-dir-rowrev {
     flex-direction: row-reverse;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
+
 /* container */
 .container-1200px {
     max-width: 1400px;
@@ -124,18 +147,20 @@ a:visited{
 /* body */
 
 /* header */
-.container-header{
-    padding:20px
+.container-header {
+    padding: 20px
 }
 
 /* main */
-.img-hero{
+.img-hero {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-#button-black{
+
+#button-black {
     background-color: var(--dark);
     color: white;
 }
+
 /* footer */
