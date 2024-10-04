@@ -44,12 +44,22 @@ ul{
 .ali-center{
     align-content: center;
 }
+.flex-dir-rowrev{
+    flex-direction: row-reverse;
+}
 /* container */
 .container-1200px{
     max-width: 1200px;
 }
 .container-800px{
     max-width: 800px;
+}
+/* panel */
+.img-panel{
+    width: 60%;
+}
+.txt-panel{
+    width: 40%;
 }
 /* body */
 
