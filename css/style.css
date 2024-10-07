@@ -49,9 +49,9 @@
     background-color: var(--dark);
 }
 
-/* .debugger {
+.debugger {
     border: 1px solid red;
-} */
+}
 
 button {
     /* background-color: white; */
@@ -64,12 +64,18 @@ button {
     margin: 4px 2px;
     border-radius: 20px;
 }
-
+body{
+    font-family: Whitney, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
 }
 h2{
     font-size: 3.5em;
+}
+p{
+    font-size: 1.2em;
+    line-height: 2;
 }
 ul {
     list-style: none;
@@ -138,6 +144,9 @@ a:visited {
 /* container */
 .container-1200px {
     max-width: 1400px;
+    /* Clelia ha aggiunto margine e padding */
+    /* margin:0 auto; */
+    /* padding:20px 10px; */
 }
 
 .container-800px {
